@@ -25,15 +25,4 @@ public class ManagerFactory
         return new AddressManagerImpl();
     }
 
-    @Bean
-    public TwitterManager getTwitterManager()
-    {
-        return new TwitterManagerImpl();
-    }
-
-    @Bean
-    public InstagramManager getInstagramManager()
-    {
-        return new InstagramManagerImpl();
-    }
 }
